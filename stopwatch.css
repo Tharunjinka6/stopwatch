@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 80vh;
+    background-color: rgb(228, 225, 225);
+}
+.Timer-Display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.Button-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    gap: 10px;
+}
+button{
+    padding: 10px;
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    padding: 40px 60px;
+    text-align: center;
+    border-radius: 5px;
+}
+.start{
+    background-color: rgb(3, 190, 3);
+}
+.stop{
+    background-color: red;
+}
+.reset{
+    background-color: rgb(43, 130, 252);  
+}
+button{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
